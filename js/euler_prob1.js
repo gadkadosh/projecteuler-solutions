@@ -1,6 +1,6 @@
 'use static'
 
-const sum3_5_mults = limit => {
+const sumMults3_5 = limit => {
     range = []
     for (let i = 1; i <= limit; i++) {
         range.push(i)
@@ -10,4 +10,4 @@ const sum3_5_mults = limit => {
     return multiples.reduce((acc, x) => acc + x)
 }
 
-console.log(sum3_5_mults(1000))
+console.log(sumMults3_5(1000))
